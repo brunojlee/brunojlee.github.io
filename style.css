@@ -1,0 +1,15 @@
+ * {
+   text-align: center;   
+ }
+ 
+ body {
+   display: inline-block;
+   max-width: 1920px;
+   max-height: 1080px;
+   background-image: url(imgs/bguc.png);
+ }
+
+ #tittle {
+   display: inline-block;
+   align-items: center;   
+ }
