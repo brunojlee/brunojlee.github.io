@@ -6,6 +6,7 @@ let linhas;
 const cor1 = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
 const cor2 = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
 const cor3 = '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+const bBranco = document.getElementById('branco');
 const bPreto = document.getElementById('preto');
 document.getElementById('preto').classList.add('selected');
 const bCor1 = document.getElementById('bCor1');
@@ -26,6 +27,7 @@ function limparTemplate() {
 limparTemplate();
 
 function removeSelected() {
+    document.getElementById('branco').classList.remove('selected');
     document.getElementById('preto').classList.remove('selected');
     document.getElementById('bCor1').classList.remove('selected');
     document.getElementById('bCor2').classList.remove('selected');
@@ -57,6 +59,12 @@ function pintar(idPixel) {
     const bPixel = document.getElementById(idPixel);
     bPixel.style.backgroundColor = corSelecionada;
 }
+
+bBranco.addEventListener('click', () => {
+    removeSelected();
+    selectColor('branco');
+    corSelecionada = 'white';
+})
 
 bPreto.addEventListener('click', () => {
     removeSelected();
