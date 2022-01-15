@@ -1,12 +1,19 @@
- * {
-   text-align: center;   
+ * {  
+  text-align: center;   
  }
  
  body {
-   display: inline-block;
+   display: inline-flex;
+   flex-direction: column;
    max-width: 1920px;
    max-height: 1080px;
    background-image: url(imgs/bguc.png);
+ }
+
+ .thumbnail {
+  width: auto;
+  border-style: double;
+  display: inline-flex;
  }
 
  #tittle {

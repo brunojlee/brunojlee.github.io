@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pixel Arts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1 class="bg-light" id="projeto">Arte com pixels</h1>
+    <div class="bg-light" id="paleta">
+        <h1 id="title" >Paleta de Cores</h1>
+        <section id="color-palette">       
+            <button class="color" id="preto"></button>
+            <button class="color" id="bCor1"></button>
+            <button class="color" id="bCor2"></button>
+            <button class="color" id="bCor3"></button>
+        </section>
+    </div>
+    <br>
+    <div id="parametro">
+        <div class="d-flex form-floating mb-3">
+            <input placeholder="Pixels" class="form-control" type="number" min="1" max="50" id="board-size">
+            <label for="board-size">Pixels</label>
+            <button id="generate-board" class="btn btn-success">VQV</button>
+            <button class="btn btn-danger" id="clear-board" onclick="limparTemplate()">Limpar</button>        
+        </div>
+    </div>
+    <div class="bg-secondary" id="moldura">
+        <div id="pixel-board">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

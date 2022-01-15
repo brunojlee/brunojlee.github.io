@@ -1,0 +1,52 @@
+* {
+    margin: 0%;
+    padding: 0%;    
+}
+html {
+    display: inline-block;
+    text-align: center;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url(images/bg.png);
+    display: inline-block;    
+}
+
+header {
+    text-align: center;
+    font-size: 80px;    
+    border-style: ridge;    
+    width: auto;
+}
+
+#campo-tarefa {
+    width: auto;
+}
+
+#criar-tarefa {
+    width: 20%;
+}
+
+#board-frame {
+    background-color: rgb(244, 235, 144);    
+}
+
+#lista-tarefas {
+    min-height: 30px;
+    border-style: double;    
+}
+.tarefa {    
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.completed {
+
+    text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+.selecionado {
+    width: auto;
+}
