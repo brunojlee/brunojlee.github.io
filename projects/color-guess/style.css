@@ -1,0 +1,58 @@
+* {   
+    margin: 0%;
+    padding: 0%;
+}
+
+#title{
+    display: none;
+}
+
+html {
+    display: inline-block;
+    text-align: center;   
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    margin-top: 2%;    
+    background-image: url(imgs/bg.png);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo {
+    margin: 0%;
+}
+
+#mesa {
+    color: gold;
+    width: 400px;    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(2, 53, 2);
+    border-style: double;
+}
+
+#paleta {
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: white;
+}
+
+.ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;    
+}
+
+#score {
+    width: auto;
+    justify-content: center;
+}
