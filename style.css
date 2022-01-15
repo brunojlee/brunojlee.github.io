@@ -12,9 +12,16 @@
 
  .thumbnail {
   width: auto;
+  height: auto;
   border-style: double;
-  display: inline-flex;
+  display: inline-flex;  
  }
+
+#pixels-art {
+  width: 450px;
+  height: 80px;
+  background-image: url(imgs/thumbnails/pixelarts.png);
+}
 
  #tittle {
    margin: auto;
