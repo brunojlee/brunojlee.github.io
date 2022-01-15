@@ -16,7 +16,7 @@
 }
 
 body {    
-    background-image: url("images/bg.png");
+    background-image: url(./images/bg.png);
     display: inline-flex;
     flex-direction: column;
     width: auto;
