@@ -10,7 +10,7 @@
    background-image: url(imgs/bguc.png);
  }
 
- .thumbnail {
+ .thumbnail, .tittle {
   width: auto;
   border-style: double;
   display: inline-flex;
