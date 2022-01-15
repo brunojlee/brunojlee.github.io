@@ -10,13 +10,14 @@
    background-image: url(imgs/bguc.png);
  }
 
- .thumbnail, .tittle {
+ .thumbnail {
   width: auto;
   border-style: double;
   display: inline-flex;
  }
 
  #tittle {
-   display: inline-block;
+   margin: auto;
+   display: inline-flex;
    align-items: center;   
  }
