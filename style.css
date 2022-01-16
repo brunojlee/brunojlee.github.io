@@ -1,30 +1,42 @@
- * {  
-  text-align: center;   
- }
- 
- body {
-   display: inline-flex;
-   flex-direction: column;
-   max-width: 1920px;
-   max-height: 1080px;
-   background-image: url(imgs/bguc.png);
- }
-
- .thumbnail {
-  width: auto;
-  height: auto;
-  border-style: double;
-  display: inline-flex;  
- }
-
-#pixels-art {
-  width: 450px;
-  height: 80px;
-  background-image: url(imgs/thumbnails/pixelarts.png);
+html {
+  height: 100%;
 }
 
- #tittle {
-   margin: auto;
+body {
    display: inline-flex;
-   align-items: center;   
+   flex-direction: column;
+   width: 100%;
+   height: 100%;
+   background-image: url(imgs/bguc.png);
+}
+
+ #topNavbar {
+  margin: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  width: 100%;
+  display: inline-flex;
+  align-items: left;
  }
+
+#pageContainer {
+  width: auto;
+  height: 100%;
+}
+
+#page {
+  width: 100%; 
+  height: 100%;
+}
+
+#rodape {  
+  margin-top: 100%;
+  display: inline-block;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+}
