@@ -34,10 +34,13 @@ body {
   margin-top: 100%;
   display: inline-block;
   flex-direction: row;
-  font-size: 30px;
   text-align: center;
 }
 
 a {
   color: inherit;
+}
+
+.socialIcons {
+  font-size: 30px;
 }
