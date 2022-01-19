@@ -3,12 +3,13 @@ html {
 }
 
 body {
-   display: inline-flex;
-   flex-direction: column;
-   width: 100%;
-   height: 100%;
-   background-image: url(imgs/bguc.png);  
-   background-repeat: round;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-image: url(imgs/tempLee.png);
+  background-position: center;  
+  background-repeat: no-repeat;
 }
 
  #topNavbar {
