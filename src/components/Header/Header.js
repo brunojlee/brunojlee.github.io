@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-
+import gerarPagina from '../../../oldscript';
 export default class Header extends Component {
   render() {
     return (
@@ -10,9 +10,11 @@ export default class Header extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+              <NavDropdown title="Projetos" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item
+                  onclick={gerarPagina('./projects/todo-list/index.html')}
+                >
                   Another action
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.3">
