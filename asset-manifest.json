@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/brunojlee.github.io/static/css/main.5d41c9a5.css",
-    "main.js": "/brunojlee.github.io/static/js/main.ba6b58c1.js",
-    "static/media/tempLee.png": "/brunojlee.github.io/static/media/tempLee.4898edb9163d452f41e8.png",
-    "index.html": "/brunojlee.github.io/index.html",
-    "main.5d41c9a5.css.map": "/brunojlee.github.io/static/css/main.5d41c9a5.css.map",
-    "main.ba6b58c1.js.map": "/brunojlee.github.io/static/js/main.ba6b58c1.js.map"
+    "main.css": "/static/css/main.5d41c9a5.css",
+    "main.js": "/static/js/main.66fc864b.js",
+    "static/media/tempLee.png": "/static/media/tempLee.4898edb9163d452f41e8.png",
+    "index.html": "/index.html",
+    "main.5d41c9a5.css.map": "/static/css/main.5d41c9a5.css.map",
+    "main.66fc864b.js.map": "/static/js/main.66fc864b.js.map"
   },
   "entrypoints": [
     "static/css/main.5d41c9a5.css",
-    "static/js/main.ba6b58c1.js"
+    "static/js/main.66fc864b.js"
   ]
 }
