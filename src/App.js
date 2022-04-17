@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <img className='logoBackground' src={background} alt='logoBackground' />
+      <a target="_blank" href="https://github.com/brunojlee">
+        <img className='logoBackground' src={background} alt='logoBackground' />
+      </a>
     </div>
   );
 }
