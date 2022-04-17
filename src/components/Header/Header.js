@@ -11,16 +11,16 @@ export default class Header extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Projetos" id="basic-nav-dropdown">
-                <NavDropdown.Item href="https://brunojlee.github.io/pixels-art/">Pixels Art</NavDropdown.Item>
-                <NavDropdown.Item href="https://brunojlee.github.io/color-guess/">Color Guess</NavDropdown.Item>
-                <NavDropdown.Item href="https://brunojlee.github.io/todo-list/">Todo List</NavDropdown.Item>
-                <NavDropdown.Item href="https://brunojlee.github.io/mistery-letter/">Mistery Letter</NavDropdown.Item>
-                <NavDropdown.Item href="https://brunojlee.github.io/meme-generator/">Meme Generator</NavDropdown.Item>
-                <NavDropdown.Item href="https://brunojlee.github.io/ecommerce/">Ecommerce by JLee</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="https://github.com/brunojlee">
+                <NavDropdown.Item target="_blank" href="https://github.com/brunojlee">
                   Repositório do GitHub
                 </NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/ecommerce/">Ecommerce by JLee</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/pixels-art/">Pixels Art</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/meme-generator/">Meme Generator</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/mistery-letter/">Mistery Letter</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/todo-list/">Todo List</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/color-guess/">Color Guess</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
