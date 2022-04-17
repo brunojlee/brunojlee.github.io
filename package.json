@@ -1,7 +1,6 @@
 {
   "name": "brunojlee.github.io",
   "version": "0.1.0",
-  "homepage": "brunojlee.github.io/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
