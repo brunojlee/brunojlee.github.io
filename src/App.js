@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/Header/Header';
-import background from './imgs/tempLee.png';
+import background from './imgs/bghome.png';
 
 function App() {
   return (

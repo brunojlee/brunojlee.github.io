@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
+import './Header.css';
 export default class Header extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg">
-        <Container>
+      <Navbar bg="light" expand="lg" className='header'>
+        <Container  className='headerNavbar'>
           <Navbar.Brand href="#home">Portfólio de BrunoJLee</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -40,7 +41,6 @@ export default class Header extends Component {
             <Navbar.Brand href="https://github.com/brunojlee" target="_blank">
               <BsGithub size={30} />
             </Navbar.Brand>
-
         </Container>
       </Navbar>
     );
