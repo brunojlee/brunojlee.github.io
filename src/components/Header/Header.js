@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import gerarPagina from '../../../oldscript';
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsWhatsapp } from 'react-icons/bs';
 export default class Header extends Component {
   render() {
     return (
@@ -11,15 +11,12 @@ export default class Header extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Projetos" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item
-                  onclick={gerarPagina('./projects/todo-list/index.html')}
-                >
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
+                <NavDropdown.Item href="https://brunojlee.github.io/pixels-art/">Pixels Art</NavDropdown.Item>
+                <NavDropdown.Item href="https://brunojlee.github.io/color-guess/">Color Guess</NavDropdown.Item>
+                <NavDropdown.Item href="https://brunojlee.github.io/todo-list/">Todo List</NavDropdown.Item>
+                <NavDropdown.Item href="https://brunojlee.github.io/mistery-letter/">Mistery Letter</NavDropdown.Item>
+                <NavDropdown.Item href="https://brunojlee.github.io/meme-generator/">Meme Generator</NavDropdown.Item>
+                <NavDropdown.Item href="https://brunojlee.github.io/ecommerce/">Ecommerce by JLee</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://github.com/brunojlee">
                   Repositório do GitHub
@@ -27,6 +24,23 @@ export default class Header extends Component {
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>
+          
+            <Navbar.Brand href="https://api.whatsapp.com/send?phone=5567999853296&text=Ol%C3%A1+gostaria+de+ser+atendido%28a%29" target="_blank" className="justify-content-end">
+              <BsWhatsapp size={30} />
+            </Navbar.Brand>
+            <Navbar.Brand href="https://www.linkedin.com/in/brunoroja/" target="_blank">
+              <BsLinkedin size={30} />
+            </Navbar.Brand>
+            <Navbar.Brand href="https://www.instagram.com/brunojlee/" target="_blank">
+              <BsInstagram size={30} />
+            </Navbar.Brand>
+            <Navbar.Brand href="https://www.facebook.com/brunojlee/" target="_blank">
+              <BsFacebook size={30} />
+            </Navbar.Brand>
+            <Navbar.Brand href="https://github.com/brunojlee" target="_blank">
+              <BsGithub size={30} />
+            </Navbar.Brand>
+
         </Container>
       </Navbar>
     );
