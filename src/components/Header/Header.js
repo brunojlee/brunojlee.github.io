@@ -17,6 +17,7 @@ export default class Header extends Component {
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/ecommerce/">Ecommerce by JLee</NavDropdown.Item>
+                <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/trybe-recipes/">Trybe Recipes</NavDropdown.Item>
                 <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/shoppingcart/">Shopping Cart</NavDropdown.Item>
                 <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/trybewarts/">Trybewarts</NavDropdown.Item>
                 <NavDropdown.Item target="_blank" href="https://brunojlee.github.io/pixels-art/">Pixels Art</NavDropdown.Item>
